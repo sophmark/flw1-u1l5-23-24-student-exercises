@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>onclick</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>onclick</title>
 </head>
+
 <body>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="onclick.html">onclick</a>
-        <a href="addEventListener.html">addEventListener</a>
-      </div>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="onclick.html">onclick</a>
+    <a href="addEventListener.html">addEventListener</a>
+  </div>
 
 
-    <!-- 1. Add an onclick attribute to the button element. -->
-    <!-- 2. Set the value equal to "notifyClick()". -->
-    <!-- Note: this lets use the JS function in the script tag below. -->
-    <button>Click Me!</button>
-
-    <script>
+  <!-- 1. Add an onclick attribute to the button element. -->
+  <!-- 2. Set the value equal to "notifyClick()". -->
+  <!-- Note: this lets use the JS function in the script tag below. -->
+  
+  <button onclick="notifyClick()">Click Me!</button>
+  <script>
     function notifyClick() {
-        alert("Button was clicked!");
+      alert("Button was clicked!");
     }
-    </script>
+  </script>
 </body>
+
 </html>
